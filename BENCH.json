@@ -543,7 +543,9 @@
   "git": {
    "tree_sha3": "3bb2f565e48def5fdcf1799368012e2015cfc33e900a3c67976a2e0b51fd5be9",
    "tree_files": 3,
-   "tree_note": "SHA3-256 over vendored source tree on disk (paths+contents, excl .git); recompute to verify"
+   "tree_note": "SHA3-256 over vendored source tree on disk (paths+contents, excl .git); recompute to verify",
+   "pin_kind": "tree_sha3",
+   "pin_kind_note": "content pin \u2014 SHA3-256 over the vendored tree on disk (paths+contents, .git excluded). Verifiable by re-walking the tree."
   }
  }
 }
